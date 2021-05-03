@@ -1,0 +1,56 @@
+@import url("../../css/reset.css");
+.input-search {
+  display: flex;
+  justify-content: space-evenly;
+  overflow-x: auto;
+  margin-top: 10px;
+}
+.input-search .input {
+  background-image: url("../../../assets/icon/search-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 8.5px;
+  background-position: 12.75px;
+  width: 327px;
+  height: 36px;
+  border-radius: 10px;
+  background-color: #7676801f;
+  border: none;
+}
+.input-search .input::placeholder {
+  padding-left: 25.75px;
+}
+
+.tab-topo {
+  display: flex;
+  justify-content: space-evenly;
+  height: 55px;
+  align-items: center;
+}
+.tab-topo .tab {
+  display: flex;
+  width: 75px;
+  height: 32px;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid rgba(60, 60, 67, 0.18);
+  border-radius: 6px;
+}
+
+.img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.img img {
+  width: 33.2%;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  bottom: 0;
+  background-color: white;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=search.css.map */
